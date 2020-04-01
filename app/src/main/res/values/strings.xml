@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">MyToDoList</string>
+    <string name="default_text">Text</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">My Tasks</string>
+    <string name="new_t">New Task</string>
+    <string name="research">Research</string>
+
+    <string name="titre">Title</string>
+    <string name="tag">Tag</string>
+    <string name="date_hour">Date et Hour</string>
+    <string name="description">Description</string>
+    <string name="validate">Validate</string>
+
+    <string name="save">Save</string>
+    <string name="supp">Remove Task</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyToDoList</string>
+    <string name="date_hour">Date et Heure</string>
+    <string name="default_text">Texte</string>
+    <string name="description">Description</string>
+    <string name="new_t">Nouvelle tâche</string>
+    <string name="research">Rechercher</string>
+    <string name="save">Sauvegarder</string>
+    <string name="supp">Supprimer tâche</string>
+    <string name="tag">Tag</string>
+    <string name="title">Mes Tâches</string>
+    <string name="titre">Titre</string>
+    <string name="validate">Valider</string>
+    <string name="action_settings">Paramètre</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mytodolist">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CreateActivity"
+            android:label="Create activity">
+        </activity>
+
+        <activity
+            android:name=".SeeTask"
+            android:label="See Task"
+            android:windowSoftInputMode="stateUnchanged">
+        </activity>
+
+        <activity
+            android:name=".SeeSimpleTask"
+            android:label="See Simple Task">
+        </activity>
+
+        <activity
+            android:name=".Navigator"
+            android:label="Navigateur">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="https"
+                        android:host="*"/>
+                <data android:scheme="http"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
