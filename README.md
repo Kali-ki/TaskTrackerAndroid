@@ -1,3 +1,3 @@
-# To-Do-List-Android
+# TaskTracker
 
-Run it with Android Studio
+A simple To-Do-List Android
